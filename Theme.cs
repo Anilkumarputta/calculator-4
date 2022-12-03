@@ -8,6 +8,10 @@ namespace Calculator
 {
     public enum Theme
     {
+            Dark,
+        Light,
+        Pink,
+        Green
 
     }
 }
