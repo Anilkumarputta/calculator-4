@@ -93,9 +93,7 @@
 
 
 
-        <Button Text="=" Grid.Row="6" Grid.Column="4" 
-               Clicked="OnCalculate" FontAttributes="Bold" BackgroundColor="LightGray"
-                FontSize="Medium"/>
+       
 
     </Grid>
 </ContentPage>
