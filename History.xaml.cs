@@ -21,7 +21,13 @@ public partial class History1 : ContentPage
         int result = await  Calculator.historyViewModel.DeleteHistory();
         ListViewItems.ItemsSource = new List<HistoryItem>();
     }
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        history = await Calculator.historyViewModel.GetHistory();
+        ListViewItems.ItemsSource = history;
 
+    }
 
 
 }
