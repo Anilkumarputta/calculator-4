@@ -88,6 +88,10 @@
                Clicked="OnSelectNumber" BackgroundColor="LightGray" FontSize="Medium"/>
         <Button Text=")" Grid.Row="1" Grid.Column="3"
                Clicked="OnSelectNumber" BackgroundColor="LightGray" FontSize="Medium"/>
+      
+       <Button Text="=" Grid.Row="6" Grid.Column="4" 
+               Clicked="OnCalculate" FontAttributes="Bold" BackgroundColor="LightGray"
+                FontSize="Medium"/>
 
 
 
