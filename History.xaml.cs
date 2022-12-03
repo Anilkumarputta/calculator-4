@@ -22,12 +22,6 @@ public partial class History1 : ContentPage
         ListViewItems.ItemsSource = new List<HistoryItem>();
     }
 
-    protected override async void OnAppearing()
-    {
-        base.OnAppearing();
-        history = await Calculator.historyViewModel.GetHistory();
-        ListViewItems.ItemsSource = history;
 
-    }
 
 }
